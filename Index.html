@@ -12,3 +12,39 @@
     <script src="script.js"></script>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+  <title>DinoX — Joguinho</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="ui">
+    <div id="topbar">
+      <div id="score">Score: 0</div>
+      <div id="coins">Moedas: 0</div>
+    </div>
+    <canvas id="game"></canvas>
+    <div id="controls">
+      <button id="btn-jump">Pular</button>
+      <button id="btn-shop">Loja</button>
+      <button id="btn-pause">Pausa</button>
+    </div>
+  </div>
+
+  <!-- Loja / Menus -->
+  <div id="modal" class="hidden">
+    <div class="panel">
+      <h2 id="modal-title">Loja</h2>
+      <div id="modal-body"></div>
+      <div class="panel-actions">
+        <button id="modal-close">Fechar</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
